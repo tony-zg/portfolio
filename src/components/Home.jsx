@@ -10,15 +10,15 @@ const Home = () => {
           Tony Guan
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I am a Junior Front End/Full Stack Developer
+          I am a Junior Front End Developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          Specialising in buidling exceptional digtal experiences. Currently, I
-          am focused on buidling responsive full-stack web applications.
+          Specialising in building exceptional digital experiences. Currently, I
+          am focused on building responsive web applications.
         </p>
         <div>
-          <button className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#3FC1C9] hover:border-[#3FC1C9]">
-            View Work
+          <button className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#3FC1C9] hover:border-[#3FC1C9] rounded">
+            View Projects
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>

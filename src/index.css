@@ -14,3 +14,26 @@
     @apply cursor-pointer;
   }
 }
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    45deg,
+    hsl(0deg 0% 96%) 0%,
+    hsl(183deg 28% 92%) 11%,
+    hsl(183deg 37% 88%) 22%,
+    hsl(184deg 42% 83%) 33%,
+    hsl(184deg 45% 79%) 44%,
+    hsl(184deg 48% 74%) 56%,
+    hsl(184deg 49% 69%) 67%,
+    hsl(184deg 51% 64%) 78%,
+    hsl(184deg 53% 59%) 89%,
+    hsl(183deg 56% 52%) 100%
+  ) !important;
+}
