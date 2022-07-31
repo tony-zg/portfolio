@@ -2,11 +2,11 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => {
   return (
-    <div name="home" className=" w-full h-screen bg-color-primary">
+    <div name="home" className="full-screen bg-color-primary container-mobile">
       {/* Container */}
-      <div className="max-w-[900px] px-10 flex flex-col justify-center h-full mx-auto lg:ml-[20%]">
+      <div className="max-w-[900px] flex flex-col justify-center h-full mx-auto lg:ml-[20%]">
         <p className="text-color-secondary">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <h1 className="text-4xl sm:text-7xl font-bold text-color-teritiary">
           Tony Guan
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">

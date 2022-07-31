@@ -7,12 +7,13 @@
 :root {
   --color-primary: #0a192f;
   --color-secondary: #3fc1c9;
+  --color-teritiary: #ccd6f6;
 }
 
 @layer base {
   body {
     @apply font-[Raleway];
-    /* @apply text-gray-300; */
+    @apply text-gray-300;
   }
 
   li {
@@ -21,7 +22,33 @@
   }
 }
 
+@layer components {
+  .container-mobile {
+    @apply px-8;
+  }
+
+  .full-screen {
+    @apply w-full h-screen;
+  }
+
+  .side-bar {
+    @apply w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-r;
+  }
+
+  .box-shadow {
+    @apply shadow-md shadow-[#040c16] hover:scale-110 duration-500;
+  }
+
+  .input-field {
+    @apply p-2 bg-color-teritiary rounded text-black;
+  }
+}
+
 @layer utilities {
+  .center {
+    @apply flex justify-center items-center;
+  }
+
   .active {
     @apply border-b-[3px] border-[#3FC1C9] inline pb-0.5;
   }
