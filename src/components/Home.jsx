@@ -2,10 +2,10 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => {
   return (
-    <div name="home" className=" w-full h-screen bg-[#0a192f]">
+    <div name="home" className=" w-full h-screen bg-color-primary">
       {/* Container */}
       <div className="max-w-[900px] px-10 flex flex-col justify-center h-full mx-auto lg:ml-[20%]">
-        <p className="text-[#3FC1C9]">Hi, my name is</p>
+        <p className="text-color-secondary">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Tony Guan
         </h1>
@@ -17,7 +17,7 @@ const Home = () => {
           am focused on building responsive web applications.
         </p>
         <div>
-          <button className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#3FC1C9] hover:border-[#3FC1C9] rounded">
+          <button className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-color-secondary hover:border-color-secondary rounded">
             View Projects
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />

@@ -2,6 +2,7 @@ import Logo from '../assets/logo.png';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useState } from 'react';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,11 +18,66 @@ const Navbar = () => {
 
       {/* Menu */}
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <Link
+            className="nav-link-hover"
+            to="home"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link-hover"
+            to="about"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link-hover"
+            to="skills"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link-hover"
+            to="projects"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="nav-link-hover"
+            to="contact"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Hamburger */}
