@@ -1,4 +1,22 @@
+import { useState } from 'react';
+
 const Contact = () => {
+  const [inputs, setInputs] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setInputs({ ...inputs, [name]: value });
+    console.log(inputs);
+  };
+
+  const handleSubmit = () => {
+    setInputs({ name: '', email: '', message: '' });
+  };
+
   return (
     <div
       name="contact"
@@ -7,6 +25,7 @@ const Contact = () => {
       <form
         method="POST"
         action="https://getform.io/f/cdd0744b-df0c-45df-bb65-41f1e2968034"
+        onSubmit={handleSubmit}
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-10">
@@ -22,6 +41,7 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
+          onChange={handleChange}
           required
         />
         <input
@@ -29,6 +49,7 @@ const Contact = () => {
           type="email"
           placeholder="Email"
           name="email"
+          onChange={handleChange}
           required
         />
         <textarea
@@ -36,6 +57,7 @@ const Contact = () => {
           name="message"
           rows="10"
           placeholder="Message"
+          onChange={handleChange}
           required
         ></textarea>
         <button
