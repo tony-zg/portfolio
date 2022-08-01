@@ -4,16 +4,17 @@ import ReactImg from '../assets/react.png';
 import Firebase from '../assets/firebase.png';
 import Sass from '../assets/sass.png';
 import Tailwind from '../assets/tailwind.png';
+import Portfolio from '../assets/portfolio.png';
 import Project from './Project';
 
 const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full sm:h-screen bg-color-primary container-mobile py-10 relative z-10 pb-[6rem]"
+      className="w-full sm:h-screen bg-color-primary container-mobile relative z-10"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-4">
           <p className="text-4xl font-bold inline border-b-4 border-color-secondary">
             Projects
           </p>
@@ -47,13 +48,13 @@ const Projects = () => {
 
             {/* Grid Item 3 */}
             <Project
-              backgroundImage={Crypto}
+              backgroundImage={Portfolio}
               name="Portfolio"
               techOneImg={ReactImg}
               techOneAlt="React icon"
               techTwoImg={Tailwind}
               techTwoAlt="Tailwind icon"
-              demoLink=""
+              demoLink="https://frabjous-mousse-a40c6d.netlify.app"
               codeLink="https://github.com/tony-zg/portfolio"
             />
           </div>
