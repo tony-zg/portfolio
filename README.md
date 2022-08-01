@@ -1,6 +1,6 @@
 # Galaxy Travel
 
-Live demo: https://frabjous-mousse-a40c6d.netlify.app
+Live demo: https://tonyzg.com
 
 This is a one-page responsive portfolio that showcases my recent projects and skills.
 

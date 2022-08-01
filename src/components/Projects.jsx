@@ -54,7 +54,7 @@ const Projects = () => {
               techOneAlt="React icon"
               techTwoImg={Tailwind}
               techTwoAlt="Tailwind icon"
-              demoLink="https://frabjous-mousse-a40c6d.netlify.app"
+              demoLink="https://tonyzg.com"
               codeLink="https://github.com/tony-zg/portfolio"
             />
           </div>
