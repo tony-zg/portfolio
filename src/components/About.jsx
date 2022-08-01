@@ -1,6 +1,9 @@
 const About = () => {
   return (
-    <div name="about" className="full-screen bg-color-primary container-mobile">
+    <div
+      name="about"
+      className="full-screen bg-color-primary container-mobile relative z-10"
+    >
       <div className="center flex-col w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="md:text-right pb-6 pl-4">

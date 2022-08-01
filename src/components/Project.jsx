@@ -1,5 +1,6 @@
 const Project = ({
   backgroundImage,
+  name,
   techOneImg,
   techOneAlt,
   techTwoImg,
@@ -15,7 +16,7 @@ const Project = ({
       {/* Hover effects */}
       <div className="opacity-0 group-hover:opacity-100">
         <div className="text-2xl font-bold text-gray-700 tracking-wider text-center">
-          Galaxy Travel
+          {name}
         </div>
         <div className="pt-4 flex justify-center">
           <img className="w-[40px]" src={techOneImg} alt={techOneAlt} />
@@ -23,12 +24,12 @@ const Project = ({
         </div>
         <div className="pt-4 text-center">
           <a href={demoLink} target="_blank" rel="noreferrer">
-            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:opacity-70">
               Demo
             </button>
           </a>
           <a href={codeLink} target="_blank" rel="noreferrer">
-            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:opacity-70">
               Code
             </button>
           </a>

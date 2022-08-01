@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full sm:h-screen bg-color-primary container-mobile py-10"
+      className="w-full sm:h-screen bg-color-primary container-mobile py-10 relative z-10 pb-[6rem]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -18,42 +18,45 @@ const Projects = () => {
             Projects
           </p>
           <p className="py-6">Check out my recent projects</p>
-        </div>
 
-        {/* Container */}
-        <div className="grid sm:grid-cols-2 gap-4">
-          {/* Grid Item 1 */}
-          <Project
-            backgroundImage={Galaxy}
-            techOneImg={ReactImg}
-            techOneAlt="React icon"
-            techTwoImg={Firebase}
-            techTwoAlt="Firebase icon"
-            demoLink="https://deluxe-tapioca-6b9ca1.netlify.app"
-            codeLink="https://github.com/tony-zg/galaxy-travel"
-          />
+          {/* Container */}
+          <div className="grid sm:grid-cols-2 gap-4">
+            {/* Grid Item 1 */}
+            <Project
+              backgroundImage={Galaxy}
+              name="Galaxy Travel"
+              techOneImg={ReactImg}
+              techOneAlt="React icon"
+              techTwoImg={Firebase}
+              techTwoAlt="Firebase icon"
+              demoLink="https://deluxe-tapioca-6b9ca1.netlify.app"
+              codeLink="https://github.com/tony-zg/galaxy-travel"
+            />
 
-          {/* Grid Item 2 */}
-          <Project
-            backgroundImage={Crypto}
-            techOneImg={ReactImg}
-            techOneAlt="React icon"
-            techTwoImg={Sass}
-            techTwoAlt="Sass icon"
-            demoLink="https://glittery-praline-aa7466.netlify.app"
-            codeLink="https://github.com/tony-zg/crypto-app"
-          />
+            {/* Grid Item 2 */}
+            <Project
+              backgroundImage={Crypto}
+              name="Coin Search"
+              techOneImg={ReactImg}
+              techOneAlt="React icon"
+              techTwoImg={Sass}
+              techTwoAlt="Sass icon"
+              demoLink="https://glittery-praline-aa7466.netlify.app"
+              codeLink="https://github.com/tony-zg/crypto-app"
+            />
 
-          {/* Grid Item 3 */}
-          <Project
-            backgroundImage={Crypto}
-            techOneImg={ReactImg}
-            techOneAlt="React icon"
-            techTwoImg={Tailwind}
-            techTwoAlt="Tailwind icon"
-            demoLink=""
-            codeLink="https://github.com/tony-zg/portfolio"
-          />
+            {/* Grid Item 3 */}
+            <Project
+              backgroundImage={Crypto}
+              name="Portfolio"
+              techOneImg={ReactImg}
+              techOneAlt="React icon"
+              techTwoImg={Tailwind}
+              techTwoAlt="Tailwind icon"
+              demoLink=""
+              codeLink="https://github.com/tony-zg/portfolio"
+            />
+          </div>
         </div>
       </div>
     </div>
