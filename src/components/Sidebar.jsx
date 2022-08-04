@@ -30,7 +30,7 @@ const Sidebar = () => {
 
         <SidebarItem
           sideBarColor="bg-[#565f69]"
-          itemHref="https://drive.google.com/file/d/1TGuR_kE_a6FkA_SM_Y9ftoKFFXFOXakY/view?usp=sharing"
+          itemHref="https://drive.google.com/file/d/18pSXyu-i5Tel5zWBKyDcAxb5Ztxrc7q8/view?usp=sharing"
           text="Resume"
           icon={<BsFillPersonLinesFill size={30} color="#fff" />}
         />
