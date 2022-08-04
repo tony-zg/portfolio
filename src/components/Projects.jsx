@@ -30,7 +30,7 @@ const Projects = () => {
               techOneAlt="React icon"
               techTwoImg={Firebase}
               techTwoAlt="Firebase icon"
-              demoLink="https://deluxe-tapioca-6b9ca1.netlify.app"
+              demoLink="https://glxtravel.netlify.app"
               codeLink="https://github.com/tony-zg/galaxy-travel"
             />
 
@@ -42,7 +42,7 @@ const Projects = () => {
               techOneAlt="React icon"
               techTwoImg={Sass}
               techTwoAlt="Sass icon"
-              demoLink="https://glittery-praline-aa7466.netlify.app"
+              demoLink="https://coinsearchcrypto.netlify.app"
               codeLink="https://github.com/tony-zg/crypto-app"
             />
 
