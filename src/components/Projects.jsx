@@ -1,3 +1,6 @@
+import JokeWebpack from '../assets/joke-webpack.jpeg';
+import Javascript from '../assets/javascript.png';
+import Webpack from '../assets/webpack.png';
 import Galaxy from '../assets/galaxy.jpeg';
 import Crypto from '../assets/crypto.jpeg';
 import ReactImg from '../assets/react.png';
@@ -5,6 +8,9 @@ import Firebase from '../assets/firebase.png';
 import Sass from '../assets/sass.png';
 import Tailwind from '../assets/tailwind.png';
 import Portfolio from '../assets/portfolio.png';
+import WorkoutBuddy from '../assets/workout-buddy.jpeg';
+import Node from '../assets/node.png';
+import MongoDB from '../assets/mongoDB.png';
 import Project from './Project';
 
 const Projects = () => {
@@ -24,6 +30,18 @@ const Projects = () => {
           <div className="grid sm:grid-cols-2 gap-4">
             {/* Grid Item 1 */}
             <Project
+              backgroundImage={JokeWebpack}
+              name="Don't Laugh Challenge"
+              techOneImg={Javascript}
+              techOneAlt="JavaScript icon"
+              techTwoImg={Webpack}
+              techTwoAlt="Webpack icon"
+              demoLink="https://dontlaughchallengewithwebpack.netlify.app/"
+              codeLink="https://github.com/tony-zg/webpack-joke-app"
+            />
+
+            {/* Grid Item 2 */}
+            <Project
               backgroundImage={Galaxy}
               name="Galaxy Travel"
               techOneImg={ReactImg}
@@ -34,7 +52,7 @@ const Projects = () => {
               codeLink="https://github.com/tony-zg/galaxy-travel"
             />
 
-            {/* Grid Item 2 */}
+            {/* Grid Item 3 */}
             <Project
               backgroundImage={Crypto}
               name="Coin Search"
@@ -46,7 +64,7 @@ const Projects = () => {
               codeLink="https://github.com/tony-zg/crypto-app"
             />
 
-            {/* Grid Item 3 */}
+            {/* Grid Item 4 */}
             <Project
               backgroundImage={Portfolio}
               name="Portfolio"
@@ -54,6 +72,20 @@ const Projects = () => {
               techOneAlt="React icon"
               techTwoImg={Tailwind}
               techTwoAlt="Tailwind icon"
+              demoLink="https://tonyzg.com"
+              codeLink="https://github.com/tony-zg/portfolio"
+            />
+
+            {/* Grid Item 5 */}
+            <Project
+              backgroundImage={WorkoutBuddy}
+              name="Workout Buddy"
+              techOneImg={ReactImg}
+              techOneAlt="React icon"
+              techTwoImg={Node}
+              techTwoAlt="Node/Express icon"
+              techThreeImg={MongoDB}
+              techThreeAlt="MongoDB icon"
               demoLink="https://tonyzg.com"
               codeLink="https://github.com/tony-zg/portfolio"
             />

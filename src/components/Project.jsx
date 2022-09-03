@@ -5,6 +5,8 @@ const Project = ({
   techOneAlt,
   techTwoImg,
   techTwoAlt,
+  techThreeImg,
+  techThreeAlt,
   demoLink,
   codeLink
 }) => {
@@ -21,6 +23,13 @@ const Project = ({
         <div className="pt-4 flex justify-center">
           <img className="w-[40px]" src={techOneImg} alt={techOneAlt} />
           <img className="w-[40px] ml-4" src={techTwoImg} alt={techTwoAlt} />
+          {techThreeImg && techThreeAlt && (
+            <img
+              className="w-[40px] ml-4"
+              src={techThreeImg}
+              alt={techThreeAlt}
+            />
+          )}
         </div>
         <div className="pt-4 text-center">
           <a href={demoLink} target="_blank" rel="noreferrer">
