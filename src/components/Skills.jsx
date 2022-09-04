@@ -1,6 +1,9 @@
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
+import SASS from '../assets/sass.png';
+import Tailwind from '../assets/tailwind.png';
 import JavaScript from '../assets/javascript.png';
+import Webpack from '../assets/webpack.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
 import MongoDB from '../assets/mongoDB.png';
@@ -24,10 +27,21 @@ const Skills = () => {
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
           <Skill skillImg={HTML} skillText="HTML" altText="HTML Icon" />
           <Skill skillImg={CSS} skillText="CSS" altText="CSS Icon" />
+          <Skill skillImg={SASS} skillText="SASS" altText="SASS Icon" />
+          <Skill
+            skillImg={Tailwind}
+            skillText="Tailwind"
+            altText="Tailwind Icon"
+          />
           <Skill
             skillImg={JavaScript}
             skillText="JavaScript"
             altText="JavaScript Icon"
+          />
+          <Skill
+            skillImg={Webpack}
+            skillText="Webpack"
+            altText="Webpack Icon"
           />
           <Skill skillImg={ReactImg} skillText="React" altText="React Icon" />
           <Skill
