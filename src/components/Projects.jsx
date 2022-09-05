@@ -87,7 +87,7 @@ const Projects = () => {
               techThreeImg={MongoDB}
               techThreeAlt="MongoDB icon"
               demoLink="https://workout-buddy-app.netlify.app/"
-              codeLink="https://github.com/tony-zg/portfolio"
+              codeLink="https://github.com/tony-zg/workout-buddy"
             />
           </div>
         </div>
