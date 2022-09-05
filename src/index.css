@@ -24,7 +24,7 @@
 
 @layer components {
   .container-mobile {
-    @apply px-8 py-20;
+    @apply px-10 py-20;
   }
 
   .full-screen {
