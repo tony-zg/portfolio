@@ -17,9 +17,9 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full sm:h-screen bg-color-primary container-mobile relative z-10"
+      className="w-screen h-full bg-color-primary container-mobile relative z-10"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center ">
         <div className="pb-4">
           <p className="text-4xl font-bold inline border-b-4 border-color-secondary">
             Projects
@@ -86,7 +86,7 @@ const Projects = () => {
               techTwoAlt="Node/Express icon"
               techThreeImg={MongoDB}
               techThreeAlt="MongoDB icon"
-              demoLink="https://tonyzg.com"
+              demoLink="https://workout-buddy-app.netlify.app/"
               codeLink="https://github.com/tony-zg/portfolio"
             />
           </div>

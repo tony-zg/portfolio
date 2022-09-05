@@ -13,10 +13,10 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="full-screen bg-color-primary container-mobile relative z-10"
+      className="full-screen h-full bg-color-primary container-mobile relative z-10"
     >
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-color-secondary">
             Skills

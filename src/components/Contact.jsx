@@ -20,7 +20,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full sm:h-screen bg-color-primary center container-mobile relative z-10"
+      className="w-screen h-full bg-color-primary center container-mobile relative z-10"
     >
       <div className="center m-auto ">
         <form
