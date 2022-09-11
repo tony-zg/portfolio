@@ -27,10 +27,6 @@
     @apply px-10 py-20;
   }
 
-  .full-screen {
-    @apply w-full h-screen;
-  }
-
   .side-bar {
     @apply w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-r;
   }

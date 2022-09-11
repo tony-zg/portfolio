@@ -6,7 +6,7 @@ const MobileMenu = ({ nav, handleClick }) => {
       className={
         !nav
           ? 'hidden'
-          : 'absolute top-0 left-0 full-screen bg-color-primary center flex-col'
+          : 'absolute top-0 left-0 w-screen h-screen bg-color-primary center flex-col'
       }
     >
       <li className="py-6 text-4xl">
