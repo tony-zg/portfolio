@@ -30,26 +30,28 @@ const Projects = () => {
           <div className="grid sm:grid-cols-2 gap-4">
             {/* Grid Item 1 */}
             <Project
-              backgroundImage={JokeWebpack}
-              name="Don't Laugh Challenge"
-              techOneImg={Javascript}
-              techOneAlt="JavaScript icon"
-              techTwoImg={Webpack}
-              techTwoAlt="Webpack icon"
-              demoLink="https://dontlaughchallengewithwebpack.netlify.app/"
-              codeLink="https://github.com/tony-zg/webpack-joke-app"
+              backgroundImage={WorkoutBuddy}
+              name="Workout Buddy"
+              techOneImg={ReactImg}
+              techOneAlt="React icon"
+              techTwoImg={Node}
+              techTwoAlt="Node/Express icon"
+              techThreeImg={MongoDB}
+              techThreeAlt="MongoDB icon"
+              demoLink="https://workout-buddy-app.netlify.app/"
+              codeLink="https://github.com/tony-zg/workout-buddy"
             />
 
             {/* Grid Item 2 */}
             <Project
-              backgroundImage={Galaxy}
-              name="Galaxy Travel"
+              backgroundImage={Portfolio}
+              name="Portfolio"
               techOneImg={ReactImg}
               techOneAlt="React icon"
-              techTwoImg={Firebase}
-              techTwoAlt="Firebase icon"
-              demoLink="https://glxtravel.netlify.app"
-              codeLink="https://github.com/tony-zg/galaxy-travel"
+              techTwoImg={Tailwind}
+              techTwoAlt="Tailwind icon"
+              demoLink="https://tonyzg.com"
+              codeLink="https://github.com/tony-zg/portfolio"
             />
 
             {/* Grid Item 3 */}
@@ -66,28 +68,26 @@ const Projects = () => {
 
             {/* Grid Item 4 */}
             <Project
-              backgroundImage={Portfolio}
-              name="Portfolio"
+              backgroundImage={Galaxy}
+              name="Galaxy Travel"
               techOneImg={ReactImg}
               techOneAlt="React icon"
-              techTwoImg={Tailwind}
-              techTwoAlt="Tailwind icon"
-              demoLink="https://tonyzg.com"
-              codeLink="https://github.com/tony-zg/portfolio"
+              techTwoImg={Firebase}
+              techTwoAlt="Firebase icon"
+              demoLink="https://glxtravel.netlify.app"
+              codeLink="https://github.com/tony-zg/galaxy-travel"
             />
 
             {/* Grid Item 5 */}
             <Project
-              backgroundImage={WorkoutBuddy}
-              name="Workout Buddy"
-              techOneImg={ReactImg}
-              techOneAlt="React icon"
-              techTwoImg={Node}
-              techTwoAlt="Node/Express icon"
-              techThreeImg={MongoDB}
-              techThreeAlt="MongoDB icon"
-              demoLink="https://workout-buddy-app.netlify.app/"
-              codeLink="https://github.com/tony-zg/workout-buddy"
+              backgroundImage={JokeWebpack}
+              name="Don't Laugh Challenge"
+              techOneImg={Javascript}
+              techOneAlt="JavaScript icon"
+              techTwoImg={Webpack}
+              techTwoAlt="Webpack icon"
+              demoLink="https://dontlaughchallengewithwebpack.netlify.app/"
+              codeLink="https://github.com/tony-zg/webpack-joke-app"
             />
           </div>
         </div>

@@ -1,10 +1,13 @@
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import SASS from '../assets/sass.png';
+import StyledComponents from '../assets/styled-components.png';
 import Tailwind from '../assets/tailwind.png';
 import JavaScript from '../assets/javascript.png';
 import Webpack from '../assets/webpack.png';
 import ReactImg from '../assets/react.png';
+import Redux from '../assets/redux.png';
+import TypeScript from '../assets/typescript.png';
 import Node from '../assets/node.png';
 import MongoDB from '../assets/mongoDB.png';
 import Skill from './Skill';
@@ -29,6 +32,11 @@ const Skills = () => {
           <Skill skillImg={CSS} skillText="CSS" altText="CSS Icon" />
           <Skill skillImg={SASS} skillText="SASS" altText="SASS Icon" />
           <Skill
+            skillImg={StyledComponents}
+            skillText="Styled Components"
+            altText="Styled Components Icon"
+          />
+          <Skill
             skillImg={Tailwind}
             skillText="Tailwind"
             altText="Tailwind Icon"
@@ -44,6 +52,12 @@ const Skills = () => {
             altText="Webpack Icon"
           />
           <Skill skillImg={ReactImg} skillText="React" altText="React Icon" />
+          <Skill skillImg={Redux} skillText="Redux" altText="Redux Icon" />
+          <Skill
+            skillImg={TypeScript}
+            skillText="TypeScript"
+            altText="TypeScript Icon"
+          />
           <Skill
             skillImg={Node}
             skillText="Node/Express"
