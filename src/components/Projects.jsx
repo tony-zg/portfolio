@@ -9,6 +9,9 @@ import Sass from '../assets/sass.png';
 import Tailwind from '../assets/tailwind.png';
 import Portfolio from '../assets/portfolio.png';
 import WorkoutBuddy from '../assets/workout-buddy.jpeg';
+import Stopwatch from '../assets/stopwatch.png';
+import Redux from '../assets/redux.png';
+import Typescript from '../assets/typescript.png';
 import Node from '../assets/node.png';
 import MongoDB from '../assets/mongoDB.png';
 import Project from './Project';
@@ -40,6 +43,20 @@ const Projects = () => {
               techThreeAlt="MongoDB icon"
               demoLink="https://workout-buddy-app.netlify.app/"
               codeLink="https://github.com/tony-zg/workout-buddy"
+            />
+
+            {/* Grid Item 2 */}
+            <Project
+              backgroundImage={Stopwatch}
+              name="Stopwatch"
+              techOneImg={ReactImg}
+              techOneAlt="React icon"
+              techTwoImg={Redux}
+              techTwoAlt="Redux icon"
+              techThreeImg={Typescript}
+              techThreeAlt="Typescript icon"
+              demoLink="https://stopwatch-redux-toolkit-ts.netlify.app"
+              codeLink="https://github.com/tony-zg/stopwatch"
             />
 
             {/* Grid Item 2 */}

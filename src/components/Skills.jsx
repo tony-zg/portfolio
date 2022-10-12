@@ -52,7 +52,11 @@ const Skills = () => {
             altText="Webpack Icon"
           />
           <Skill skillImg={ReactImg} skillText="React" altText="React Icon" />
-          <Skill skillImg={Redux} skillText="Redux" altText="Redux Icon" />
+          <Skill
+            skillImg={Redux}
+            skillText="Redux/Toolkit"
+            altText="Redux Icon"
+          />
           <Skill
             skillImg={TypeScript}
             skillText="TypeScript"
