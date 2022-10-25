@@ -10,6 +10,7 @@ import Redux from '../assets/redux.png';
 import TypeScript from '../assets/typescript.png';
 import Node from '../assets/node.png';
 import MongoDB from '../assets/mongoDB.png';
+import Jest from '../assets/jest.png';
 import Skill from './Skill';
 
 const Skills = () => {
@@ -24,7 +25,7 @@ const Skills = () => {
           <p className="text-4xl font-bold inline border-b-4 border-color-secondary">
             Skills
           </p>
-          <p className="py-6">These are the technologies I am familar with</p>
+          <p className="py-6">These are the technologies I have worked with</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
@@ -72,6 +73,7 @@ const Skills = () => {
             skillText="MongoDB"
             altText="MongoDB Icon"
           />
+          <Skill skillImg={Jest} skillText="Jest" altText="Jest Icon" />
         </div>
       </div>
     </div>
