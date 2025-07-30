@@ -46,7 +46,7 @@ const Projects = () => {
             />
 
             {/* Grid Item 2 */}
-            <Project
+            {/* <Project
               backgroundImage={Stopwatch}
               name="Stopwatch"
               techOneImg={ReactImg}
@@ -57,10 +57,10 @@ const Projects = () => {
               techThreeAlt="Typescript icon"
               demoLink="https://stopwatch-redux-toolkit-ts.netlify.app"
               codeLink="https://github.com/tony-zg/stopwatch"
-            />
+            /> */}
 
-            {/* Grid Item 2 */}
-            <Project
+            {/* Grid Item 3 */}
+            {/* <Project
               backgroundImage={Portfolio}
               name="Portfolio"
               techOneImg={ReactImg}
@@ -69,9 +69,9 @@ const Projects = () => {
               techTwoAlt="Tailwind icon"
               demoLink="https://tonyzg.com"
               codeLink="https://github.com/tony-zg/portfolio"
-            />
+            /> */}
 
-            {/* Grid Item 3 */}
+            {/* Grid Item 4 */}
             <Project
               backgroundImage={Crypto}
               name="Coin Search"
@@ -83,7 +83,7 @@ const Projects = () => {
               codeLink="https://github.com/tony-zg/crypto-app"
             />
 
-            {/* Grid Item 4 */}
+            {/* Grid Item 5 */}
             <Project
               backgroundImage={Galaxy}
               name="Galaxy Travel"
@@ -95,7 +95,7 @@ const Projects = () => {
               codeLink="https://github.com/tony-zg/galaxy-travel"
             />
 
-            {/* Grid Item 5 */}
+            {/* Grid Item 6 */}
             <Project
               backgroundImage={JokeWebpack}
               name="Don't Laugh Challenge"

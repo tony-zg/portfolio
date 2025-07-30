@@ -28,12 +28,12 @@ const Sidebar = () => {
           icon={<HiOutlineMail size={30} color="#fff" />}
         />
 
-        <SidebarItem
+        {/* <SidebarItem
           sideBarColor="bg-[#565f69]"
-          itemHref="https://drive.google.com/file/d/1TT32JdXD_jrVUb3OARJWkZFZEgNl5_s_/view?usp=share_link"
+          itemHref=""
           text="Resume"
           icon={<BsFillPersonLinesFill size={30} color="#fff" />}
-        />
+        /> */}
       </ul>
     </div>
   );

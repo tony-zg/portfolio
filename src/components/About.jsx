@@ -22,11 +22,13 @@ const About = () => {
           </div>
           <div className="sm:px-4">
             <p>
-              I am a Junior Front-End Developer with 10+ years experience in
-              customer service. After being introduced to coding, I would never
-              think solving problem is so satisfying. I’m passionate about
-              continuous learning, growing and improving my skills so that I can
-              deliver high-quality code simultaneously.
+              Results-oriented Full-Stack Developer with 3 years of experience,
+              specialising in frontend solutions and building robust web
+              applications using the MERN stack. Committed to continuous
+              learning and applying new technologies to drive product quality
+              and business outcomes. Effective team player in agile
+              environments, fostering strong collaboration through clear,
+              responsible communication.
             </p>
             <p>
               As a motivated team player, I am very much looking forward to be
