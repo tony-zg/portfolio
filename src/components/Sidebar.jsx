@@ -27,13 +27,6 @@ const Sidebar = () => {
           text="Email"
           icon={<HiOutlineMail size={30} color="#fff" />}
         />
-
-        {/* <SidebarItem
-          sideBarColor="bg-[#565f69]"
-          itemHref=""
-          text="Resume"
-          icon={<BsFillPersonLinesFill size={30} color="#fff" />}
-        /> */}
       </ul>
     </div>
   );
